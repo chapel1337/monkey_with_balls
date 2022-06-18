@@ -1,0 +1,125 @@
+* {
+    font-family: papyrus;
+}
+
+body {
+    background-color: yellow;
+    animation: spam1 1s infinite;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 0.5%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: yellow;
+    animation: spam2 0.75s infinite ease-in-out reverse;
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid black;
+    animation: spam3 1s infinite reverse ease-in-out;
+}
+
+@keyframes spam1 {
+    10% {
+        background-color: red;
+    }
+    20% {
+        background-color: green;
+    }
+    30% {
+        background-color: blue;
+    }
+    40% {
+        background-color: purple;
+    }
+    50% {
+        background-color: orange;
+    }
+    60% {
+        background-color: cyan;
+    }
+    70% {
+        background-color: blueviolet;
+    }
+    80% {
+        background-color: bisque;
+    }
+    90% {
+        background-color: magenta;
+    }
+}
+
+@keyframes spam2 {
+    10% {
+        color: red;
+    }
+    20% {
+        color: green;
+    }
+    30% {
+        color: blue;
+    }
+    40% {
+        color: purple;
+    }
+    50% {
+        color: orange;
+        font-size: 75%;
+    }
+    60% {
+        color: cyan;
+    }
+    70% {
+        color: blueviolet;
+    }
+    80% {
+        color: bisque;
+    }
+    90% {
+        color: magenta;
+    }
+}
+
+@keyframes spam3 {
+    10% {
+        border-color: red;
+    }
+    20% {
+        border-color: green;
+    }
+    30% {
+        border-color: blue;
+    }
+    40% {
+        border-color: purple;
+    }
+    50% {
+        border-color: orange;
+        height: 500px;
+        width: 500px;
+    }
+    60% {
+        border-color: cyan;
+    }
+    70% {
+        border-color: blueviolet;
+    }
+    80% {
+        border-color: bisque;
+    }
+    90% {
+        border-color: magenta;
+    }
+}
+
+@font-face {
+    font-family: "papyrus";
+    src: url(papyrus.ttf);
+}
